@@ -4,7 +4,7 @@ include "conn.php";
 
 // Check if ID is set and is a number
 if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
-    echo "<script>alert('Invalid ID'); window.location.href='index.php';</script>";
+    echo "<script>alert('Invalid ID');</script>";
     exit();
 }
 
